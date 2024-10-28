@@ -8,6 +8,10 @@
         width: 320px;
     }
 
+    .container.container-small {
+        width: 290px;
+    }
+
     .nav-list {
         display: none;
     }
@@ -43,6 +47,13 @@
     .title-1 {
         font-size: 28px;
     }
+    .title-2 {
+        font-size: 22px;
+    }
+    .title-3 {
+        font-size: 18px;
+    }
+
 
     .main-content {
         padding: 40px 0;
@@ -66,7 +77,34 @@
     .card {
         width: 290px;
     }
-.card-desc p {
-    font-size: 14px;
-}
+
+    .card-desc p {
+        font-size: 14px;
+    }
+
+    /*Article*/
+
+    .article-content p {
+        font-size: 14px;
+    }
+
+    .article-content p+p {
+        margin-bottom: 14px;
+    }
+
+    .article-img {
+        margin: 20px 0;
+    }
+
+    /*Contacts*/
+    .address-wrapper {
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .form-wrapper {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+    
 }
