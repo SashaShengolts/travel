@@ -9,7 +9,7 @@
     }
 
     .container.container-small {
-        width: 290px;
+        width: 320px;
     }
 
     .nav-list {
@@ -90,7 +90,7 @@
     }
 
     .article-content p+p {
-        margin-bottom: 14px;
+        margin-top: 14px;
     }
 
     .article-img {
